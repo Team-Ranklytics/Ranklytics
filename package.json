@@ -1,0 +1,20 @@
+{
+  "name": "ranklytics",
+  "version": "1.0.0",
+  "description": "Ranklytics.in website powered by Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "format": "prettier --write '**/*.{js,css,json,html}'"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-html": "^8.1.4",
+    "prettier": "^3.8.1",
+    "stylelint": "^17.4.0",
+    "stylelint-config-standard": "^40.0.0",
+    "wrangler": "^3.0.0"
+  }
+}

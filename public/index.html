@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ══ PRIMARY SEO ══ -->
+  <title>Ranklytics | Data-Driven SEO Agency Chennai — Turn Traffic Into Revenue</title>
+  <meta name="description"
+    content="Ranklytics is a developer-led technical SEO agency in Chennai. We combine data analytics, Core Web Vitals optimization, and content strategy to turn your website into a predictable revenue engine." />
+  <meta name="keywords"
+    content="SEO agency Chennai, technical SEO, data-driven SEO, Core Web Vitals, SEO company India, website redesign SEO" />
+  <meta name="author" content="Ranklytics" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ranklytics.in/" />
+
+  <!-- ══ OPEN GRAPH ══ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ranklytics.in/" />
+  <meta property="og:title" content="Ranklytics | Data-Driven SEO That Turns Traffic Into Revenue" />
+  <meta property="og:description"
+    content="Developer-led technical SEO agency in Chennai. Performance-focused. Data-first. No vanity rankings." />
+  <meta property="og:image" content="https://ranklytics.in/og-image.jpg" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Ranklytics" />
+
+  <!-- ══ TWITTER CARD ══ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ranklytics" />
+  <meta name="twitter:title" content="Ranklytics | Data-Driven SEO Agency" />
+  <meta name="twitter:description" content="Developer-led technical SEO that turns websites into revenue engines." />
+  <meta name="twitter:image" content="https://ranklytics.in/og-image.jpg" />
+
+  <!-- ══ GEO ══ -->
+  <meta name="geo.region" content="IN-TN" />
+  <meta name="geo.placename" content="Chennai" />
+
+  <!-- ══ EXTRAS ══ -->
+  <meta name="theme-color" content="#060a06" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- ══ PERFORMANCE ══ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="css/style.css" as="style" />
+
+  <!-- ══ JSON-LD SCHEMA ══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://ranklytics.in/#org",
+        "name": "Ranklytics",
+        "url": "https://ranklytics.in/",
+        "logo": "https://ranklytics.in/logo.png",
+        "description": "Developer-led technical SEO agency helping businesses grow organic traffic and revenue.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chennai",
+          "addressRegion": "Tamil Nadu",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hello@ranklytics.in",
+          "contactType": "customer service"
+        },
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://ranklytics.in/#website",
+        "url": "https://ranklytics.in/",
+        "name": "Ranklytics",
+        "publisher": { "@id": "https://ranklytics.in/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long does technical SEO take to show results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most clients see measurable index improvements within 4-8 weeks and significant traffic growth between 3-6 months, depending on site authority and content strategy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes Ranklytics different from other SEO agencies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We are developer-led, not marketer-led. Every decision is backed by data — keyword revenue mapping, Core Web Vitals measurement, and statistical evidence rather than vanity metrics."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer website redesign along with SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Our Hybrid Redesign package combines conversion-focused UI/UX redesign with full technical SEO implementation — so your new site ranks from day one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which industries do you serve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We work across SaaS, local businesses, clinics, e-commerce, and B2B services. Our data-driven approach adapts to any industry."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you fix Core Web Vitals issues?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. Our engineers diagnose and fix LCP, INP, and CLS issues at the code level — not just surface-level recommendations."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Global ambient background -->
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <!-- ══ NAVIGATION ══ -->
+  <header class="navbar" role="banner">
+    <a href="/" class="nav-brand" aria-label="Ranklytics home">Ranklytics<span class="dot"
+        aria-hidden="true">_</span></a>
+
+    <nav aria-label="Primary navigation">
+      <ul class="nav-links">
+        <li><a href="/" class="active" aria-current="page">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/website-redesign-seo.html">Redesign</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html" class="btn btn-outline"
+            style="min-height:36px;padding:0 1rem;font-size:0.75rem">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </button>
+  </header>
+
+  <main>
+    <!-- ══ SECTION 1: HERO ══ -->
+    <section class="hero"
+      style="min-height:100vh;display:flex;align-items:center;padding-top:var(--header-height);position:relative;overflow:hidden;">
+
+      <!-- Matrix rain canvas -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Floating corner brackets -->
+      <div class="corner-bracket corner-bracket--tl" aria-hidden="true"></div>
+      <div class="corner-bracket corner-bracket--tr" aria-hidden="true"></div>
+      <div class="corner-bracket corner-bracket--bl" aria-hidden="true"></div>
+      <div class="corner-bracket corner-bracket--br" aria-hidden="true"></div>
+
+      <div class="container gsap-reveal"
+        style="text-align:center;max-width:900px;margin:0 auto;position:relative;z-index:2;">
+
+        <div class="badge" style="margin-bottom:1.5rem;">
+          <span style="display:flex;align-items:center;gap:0.5rem;">
+            <span
+              style="width:6px;height:6px;border-radius:50%;background:var(--accent-green);box-shadow:0 0 6px var(--accent-green);animation:blink 1.2s step-end infinite;display:inline-block;"></span>
+            SYS.STATUS :: ONLINE &nbsp;·&nbsp; LOC :: CHENNAI, IN
+          </span>
+        </div>
+
+        <h1 class="glitch" style="margin-bottom:1.25rem;line-height:1.1;">
+          Data-Driven SEO That<br>
+          Turns Traffic Into <span class="text-gradient"
+            data-typewriter='["Revenue","Leads","Pipeline","Growth"]'></span>
+        </h1>
+
+        <p style="max-width:580px;margin:0 auto 2rem;font-size:clamp(1rem,1.8vw,1.125rem);">
+          Ranklytics engineers organic growth through <strong style="color:var(--text-primary)">technical
+            precision</strong>, keyword revenue mapping, and conversion-optimized architecture — not vanity rankings.
+        </p>
+
+        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+          <a href="/contact.html#audit" class="btn btn-primary">Init_Free_Snapshot</a>
+          <a href="/services.html" class="btn btn-outline">View_Services</a>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div
+          style="margin-top:3rem;font-family:var(--font-mono);font-size:0.7rem;color:var(--text-tertiary);display:flex;align-items:center;justify-content:center;gap:0.5rem;"
+          aria-hidden="true">
+          <span
+            style="width:1px;height:32px;background:linear-gradient(to bottom,var(--accent-green),transparent);display:inline-block;"></span>
+          SCROLL TO EXPLORE
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SECTION 2: STATS BAR ══ -->
+    <section
+      style="padding:var(--space-md) 0;background:var(--bg-surface);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle);"
+      aria-label="Key metrics">
+      <div class="container">
+        <div class="grid grid-4 gsap-reveal">
+
+          <div class="stat-card">
+            <span class="stat-card__number" data-count="213" data-suffix="%">0%</span>
+            <span class="stat-card__label">Avg. Traffic Growth</span>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-card__number" data-count="48" data-suffix="+">0+</span>
+            <span class="stat-card__label">Clients Ranked</span>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-card__number" data-count="500" data-suffix="+">0+</span>
+            <span class="stat-card__label">Keywords on Page 1</span>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-card__number" data-count="98" data-suffix="%">0%</span>
+            <span class="stat-card__label">Client Retention</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SECTION 3: PROBLEM ══ -->
+    <section id="problem" aria-labelledby="problem-heading">
+      <div class="container gsap-reveal">
+        <div style="text-align:center;margin-bottom:var(--space-md);">
+          <div class="section-label" style="justify-content:center;">DIAGNOSTIC REPORT</div>
+          <h2 id="problem-heading">Why Websites <span class="text-gradient">Fail to Rank</span></h2>
+        </div>
+
+        <div class="grid grid-2" style="align-items:center;gap:var(--space-md);">
+
+          <!-- Terminal error log -->
+          <div class="terminal-card">
+            <div class="terminal-card__header" aria-hidden="true">
+              <span class="terminal-card__dot terminal-card__dot--red"></span>
+              <span class="terminal-card__dot terminal-card__dot--amber"></span>
+              <span class="terminal-card__dot terminal-card__dot--green"></span>
+              <span class="terminal-card__title">ranklytics_scan.sh — errors.log</span>
+            </div>
+            <div class="terminal-card__body" aria-label="Common SEO error list">
+              <div class="terminal-line terminal-line--error">
+                <span class="terminal-line__prompt">[ERR]</span>
+                <span class="terminal-line__text">Poor technical site architecture → crawl failures</span>
+              </div>
+              <div class="terminal-line terminal-line--error">
+                <span class="terminal-line__prompt">[ERR]</span>
+                <span class="terminal-line__text">Critical Core Web Vitals failures → ranking suppression</span>
+              </div>
+              <div class="terminal-line terminal-line--warning">
+                <span class="terminal-line__prompt">[WRN]</span>
+                <span class="terminal-line__text">Misaligned search intent → wrong traffic</span>
+              </div>
+              <div class="terminal-line terminal-line--warning">
+                <span class="terminal-line__prompt">[WRN]</span>
+                <span class="terminal-line__text">Zero CRO strategy → traffic with no conversions</span>
+              </div>
+              <div class="terminal-line terminal-line--error">
+                <span class="terminal-line__prompt">[ERR]</span>
+                <span class="terminal-line__text">No schema markup → invisible to rich results</span>
+              </div>
+              <div class="terminal-line terminal-line--info">
+                <span class="terminal-line__prompt">[INF]</span>
+                <span class="terminal-line__text">Running Ranklytics diagnostic...</span>
+              </div>
+              <div class="terminal-line terminal-line--success">
+                <span class="terminal-line__prompt">[OK ]</span>
+                <span class="terminal-line__text">Fixes identified. Execute remediation? [Y/n]</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="glitch"
+              style="font-size:clamp(1.4rem,2.5vw,2rem);margin-bottom:1rem;font-family:var(--font-mono);">
+              Most agencies guess.<br><span class="text-gradient">We output data.</span>
+            </h3>
+            <p style="margin-bottom:1.5rem;">
+              Stop burning budget on gut feelings. If your website isn't a predictable pipeline asset, it's a liability
+              hemorrhaging revenue to competitors with weaker products.
+            </p>
+            <p style="margin-bottom:var(--space-md);">
+              Our engineers diagnose issues at the code level — CWV, schema, architecture — then execute fixes that move
+              rankings, not just reports.
+            </p>
+            <a href="/contact.html" class="btn btn-outline" style="font-size:0.75rem;">Run_Diagnostics</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SECTION 4: WHAT MAKES US DIFFERENT ══ -->
+    <section id="different"
+      style="background:var(--bg-surface);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle);"
+      aria-labelledby="different-heading">
+      <div class="container gsap-reveal">
+        <div style="text-align:center;max-width:800px;margin:0 auto var(--space-md);">
+          <div class="section-label" style="justify-content:center;">CORE ARCHITECTURE</div>
+          <h2 id="different-heading">Built on Data.<br><span class="text-gradient">Designed for Growth.</span></h2>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="glass-card">
+            <div
+              style="font-family:var(--font-mono);font-size:0.75rem;color:var(--accent-green);margin-bottom:1rem;opacity:0.8;">
+              // MODULE_01</div>
+            <h4 style="font-size:1rem;margin-bottom:0.75rem;color:var(--text-primary);">Dev-Led Technical SEO</h4>
+            <p style="font-size:0.875rem;margin:0;">Crawlers need clean architecture. We fix Core Web Vitals, schema,
+              and structural issues at the <span style="color:var(--accent-green);font-family:var(--font-mono);">code
+                level</span> — not with spreadsheet recommendations.</p>
+          </div>
+
+          <div class="glass-card">
+            <div
+              style="font-family:var(--font-mono);font-size:0.75rem;color:var(--accent-green);margin-bottom:1rem;opacity:0.8;">
+              // MODULE_02</div>
+            <h4 style="font-size:1rem;margin-bottom:0.75rem;color:var(--text-primary);">Revenue-Mapped Keywords</h4>
+            <p style="font-size:0.875rem;margin:0;">We map keywords to search intent <em>and</em> revenue potential.
+              Every target must have a clear path from <span
+                style="color:var(--accent-green);font-family:var(--font-mono);">SERP click → conversion.</span></p>
+          </div>
+
+          <div class="glass-card">
+            <div
+              style="font-family:var(--font-mono);font-size:0.75rem;color:var(--accent-green);margin-bottom:1rem;opacity:0.8;">
+              // MODULE_03</div>
+            <h4 style="font-size:1rem;margin-bottom:0.75rem;color:var(--text-primary);">Conversion UI/UX</h4>
+            <p style="font-size:0.875rem;margin:0;">Traffic without a funnel is wasted bandwidth. We design interfaces
+              that guide users directly toward <span
+                style="color:var(--accent-green);font-family:var(--font-mono);">buying decisions.</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SECTION 5: PROCESS ══ -->
+    <section id="process" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="grid grid-2" style="align-items:center;gap:var(--space-md);">
+
+          <div class="gsap-reveal">
+            <div class="section-label">EXECUTION PROTOCOL</div>
+            <h2 id="process-heading">How We <span class="text-gradient">Operate</span></h2>
+            <p style="margin-bottom:var(--space-md);">A systematic 4-phase protocol — no black boxes, no mystery
+              activities. Every action is logged, measured, and reported.</p>
+
+            <div style="display:flex;flex-direction:column;gap:1.5rem;">
+              <div class="process-step">
+                <div class="process-step__num">01</div>
+                <div class="process-step__content">
+                  <h4>Technical Audit &amp; Snapshot</h4>
+                  <p>Full crawl analysis: CWV metrics, indexation gaps, schema coverage, and revenue keyword mapping.
+                  </p>
+                </div>
+              </div>
+              <div class="process-step">
+                <div class="process-step__num">02</div>
+                <div class="process-step__content">
+                  <h4>Strategy Architecture</h4>
+                  <p>Custom growth roadmap: content clusters, link acquisition targets, technical fix priority queue.
+                  </p>
+                </div>
+              </div>
+              <div class="process-step">
+                <div class="process-step__num">03</div>
+                <div class="process-step__content">
+                  <h4>Execute &amp; Deploy</h4>
+                  <p>On-page fixes, content published, backlinks acquired, schema deployed — all at code level.</p>
+                </div>
+              </div>
+              <div class="process-step">
+                <div class="process-step__num">04</div>
+                <div class="process-step__content">
+                  <h4>Monthly Data Report</h4>
+                  <p>Transparent dashboard: ranking deltas, traffic attribution, CWV scores, and next-cycle priorities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Terminal animation card -->
+          <div class="terminal-card gsap-reveal" aria-label="Terminal process animation">
+            <div class="terminal-card__header">
+              <span class="terminal-card__dot terminal-card__dot--red"></span>
+              <span class="terminal-card__dot terminal-card__dot--amber"></span>
+              <span class="terminal-card__dot terminal-card__dot--green"></span>
+              <span class="terminal-card__title">ranklytics_protocol.sh</span>
+            </div>
+            <div class="terminal-card__body" data-terminal-container>
+              <div class="terminal-line">
+                <span class="terminal-line__prompt">$</span>
+                <span class="terminal-line__text" data-terminal-line>./audit --deep --site="client.com"</span>
+              </div>
+              <div class="terminal-line terminal-line--info">
+                <span class="terminal-line__prompt"> </span>
+                <span class="terminal-line__text" data-terminal-line>Scanning 2,847 URLs... done ✓</span>
+              </div>
+              <div class="terminal-line terminal-line--warning">
+                <span class="terminal-line__prompt"> </span>
+                <span class="terminal-line__text" data-terminal-line>LCP: 4.2s → FAIL → patching...</span>
+              </div>
+              <div class="terminal-line terminal-line--success">
+                <span class="terminal-line__prompt"> </span>
+                <span class="terminal-line__text" data-terminal-line>LCP: 1.8s → PASS ✓</span>
+              </div>
+              <div class="terminal-line">
+                <span class="terminal-line__prompt">$</span>
+                <span class="terminal-line__text" data-terminal-line>./deploy --schema --content --links</span>
+              </div>
+              <div class="terminal-line terminal-line--success">
+                <span class="terminal-line__prompt"> </span>
+                <span class="terminal-line__text" data-terminal-line>Rankings increased 68% in 90 days ↑</span>
+              </div>
+              <div class="terminal-line">
+                <span class="terminal-line__prompt">$</span>
+                <span class="terminal-line__text"><span class="cursor-blink" aria-hidden="true"></span></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SECTION 6: SERVICES / PRICING ══ -->
+    <section id="services"
+      style="background:var(--bg-surface);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle);"
+      aria-labelledby="services-heading">
+      <div class="container gsap-reveal">
+        <div style="text-align:center;margin-bottom:var(--space-md);">
+          <div class="section-label" style="justify-content:center;">SYSTEM CONFIGURATIONS</div>
+          <h2 id="services-heading">Choose Your <span class="text-gradient">SEO Package</span></h2>
+        </div>
+
+        <div class="grid grid-3" style="margin-bottom:var(--space-md);">
+
+          <!-- Tier 1 -->
+          <div class="glass-card" style="display:flex;flex-direction:column;">
+            <div class="badge" style="margin-bottom:1rem;">TIER_01 // LOCAL</div>
+            <h3 style="font-size:1.375rem;margin-bottom:0.375rem;color:var(--text-primary);">Starter SEO</h3>
+            <div
+              style="font-family:var(--font-mono);font-size:1.375rem;color:var(--accent-green);margin-bottom:0.5rem;font-weight:700;">
+              ₹10,000<span style="font-size:0.8rem;color:var(--text-tertiary);font-weight:400;">/mo</span></div>
+            <p style="font-size:0.875rem;margin-bottom:1.25rem;flex-grow:1;color:var(--text-tertiary);">Essential
+              technical SEO for local businesses and clinics dominating map packs.</p>
+            <ul
+              style="list-style:none;margin-bottom:1.5rem;font-size:0.8125rem;display:flex;flex-direction:column;gap:0.625rem;font-family:var(--font-mono);">
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                10–15 Target Keywords
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                GBP Optimization
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                Technical On-Page Fixes
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                Monthly Data Report
+              </li>
+            </ul>
+            <a href="/services.html#starter" class="btn btn-outline" style="width:100%;">View_Specs</a>
+          </div>
+
+          <!-- Tier 2 — RECOMMENDED -->
+          <div class="glass-card"
+            style="display:flex;flex-direction:column;border-color:var(--border-green-bright);box-shadow:var(--glow-green-sm),var(--glow-card);">
+            <div class="badge"
+              style="margin-bottom:1rem;background:var(--accent-green);color:var(--bg-base);border-color:var(--accent-green);">
+              TIER_02 // RECOMMENDED</div>
+            <h3 style="font-size:1.375rem;margin-bottom:0.375rem;color:var(--text-primary);">Growth SEO</h3>
+            <div
+              style="font-family:var(--font-mono);font-size:1.375rem;color:var(--accent-green);margin-bottom:0.5rem;font-weight:700;">
+              ₹20,000<span style="font-size:0.8rem;color:var(--text-tertiary);font-weight:400;">/mo</span></div>
+            <p style="font-size:0.875rem;margin-bottom:1.25rem;flex-grow:1;color:var(--text-tertiary);">Content-led
+              strategy with aggressive technical optimization and authority building.</p>
+            <ul
+              style="list-style:none;margin-bottom:1.5rem;font-size:0.8125rem;display:flex;flex-direction:column;gap:0.625rem;font-family:var(--font-mono);">
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                Everything in Starter
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                4 SEO Blog Posts/mo
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                10–15 Backlinks/mo
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                Core Web Vitals Remediation
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                Competitor Tracking
+              </li>
+            </ul>
+            <a href="/services.html#growth" class="btn btn-primary" style="width:100%;">View_Specs</a>
+          </div>
+
+          <!-- Tier 3 -->
+          <div class="glass-card" style="display:flex;flex-direction:column;">
+            <div class="badge" style="margin-bottom:1rem;">TIER_03 // ENTERPRISE</div>
+            <h3 style="font-size:1.375rem;margin-bottom:0.375rem;color:var(--text-primary);">Premium SEO</h3>
+            <div
+              style="font-family:var(--font-mono);font-size:1.375rem;color:var(--accent-green);margin-bottom:0.5rem;font-weight:700;">
+              ₹50,000<span style="font-size:0.8rem;color:var(--text-tertiary);font-weight:400;">/mo</span></div>
+            <p style="font-size:0.875rem;margin-bottom:1.25rem;flex-grow:1;color:var(--text-tertiary);">Full-funnel
+              strategy, aggressive CRO, and direct competitive market consulting.</p>
+            <ul
+              style="list-style:none;margin-bottom:1.5rem;font-size:0.8125rem;display:flex;flex-direction:column;gap:0.625rem;font-family:var(--font-mono);">
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                Everything in Growth
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                8+ Blog Posts/mo
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                20+ Backlinks/mo
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                CRO &amp; Monthly Consult
+              </li>
+              <li style="display:flex;gap:0.625rem;align-items:center;color:var(--text-secondary);">
+                <svg style="color:var(--accent-success);width:14px;flex-shrink:0;" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                </svg>
+                Custom Architecture Builds
+              </li>
+            </ul>
+            <a href="/services.html#premium" class="btn btn-outline" style="width:100%;">View_Specs</a>
+          </div>
+
+        </div>
+
+        <div style="text-align:center;">
+          <a href="/website-redesign-seo.html" class="btn btn-ghost" style="font-size:0.75rem;">Need a full Redesign? →
+            Run_Hybrid_Query</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SECTION 7: TESTIMONIALS ══ -->
+    <section id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container gsap-reveal">
+        <div style="text-align:center;margin-bottom:var(--space-md);">
+          <div class="section-label" style="justify-content:center;">CLIENT TRANSMISSIONS</div>
+          <h2 id="testimonials-heading">What Operators <span class="text-gradient">Report</span></h2>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="testimonial-card">
+            <p class="testimonial-card__text">"Ranklytics took our organic traffic from 800 to 6,200 monthly visitors in
+              5 months. Their technical audit uncovered issues our previous agency never touched."</p>
+            <div class="testimonial-card__author">— Arjun M.</div>
+            <div class="testimonial-card__role">Founder, SaaS Startup · Chennai</div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-card__text">"Finally an agency that speaks developer. They fixed our LCP from 5.8s to
+              1.6s in two weeks. Our conversion rate jumped 34% immediately."</p>
+            <div class="testimonial-card__author">— Priya K.</div>
+            <div class="testimonial-card__role">CTO, E-commerce Brand · Bangalore</div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-card__text">"The monthly reports are unlike anything I've seen — actual rankings
+              mapped to revenue contribution. This is how SEO should be measured."</p>
+            <div class="testimonial-card__author">— Rahul S.</div>
+            <div class="testimonial-card__role">CEO, Digital Agency · Mumbai</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SECTION 8: FAQ ══ -->
+    <section id="faq"
+      style="background:var(--bg-surface);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle);"
+      aria-labelledby="faq-heading">
+      <div class="container gsap-reveal">
+        <div style="text-align:center;margin-bottom:var(--space-md);">
+          <div class="section-label" style="justify-content:center;">KNOWLEDGE BASE</div>
+          <h2 id="faq-heading">Frequently <span class="text-gradient">Asked</span></h2>
+        </div>
+
+        <div style="max-width:800px;margin:0 auto;">
+          <div class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              How long does technical SEO take to show results?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Most clients see measurable index improvements within 4–8 weeks and significant traffic growth between
+                3–6 months, depending on site authority and content strategy depth.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              What makes Ranklytics different from other SEO agencies?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>We are developer-led, not marketer-led. Every decision is backed by data — keyword revenue mapping,
+                Core Web Vitals measurement, and statistical evidence rather than vanity metrics or "gut feeling"
+                strategy.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Do you offer website redesign alongside SEO?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes. Our Hybrid Redesign package combines conversion-focused UI/UX redesign with full technical SEO
+                implementation — so your new site ranks from day one and converts the traffic it earns.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Can you fix Core Web Vitals issues?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Absolutely. Our engineers diagnose and fix LCP, INP, and CLS issues at the code level — optimizing
+                images, reducing JS execution cost, fixing layout shifts — not just surface-level recommendations with
+                no implementation.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Which industries do you serve?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>We work across SaaS, local businesses, clinics, e-commerce, and B2B service firms. Our data-driven
+                approach is industry-agnostic — if Google ranks your competitors, we can help you outrank them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SECTION 9: CLOSING CTA ══ -->
+    <section style="padding:var(--space-xl) 0;" aria-labelledby="cta-heading">
+      <div class="container gsap-reveal" style="text-align:center;">
+        <div class="section-label" style="justify-content:center;">INITIALIZE GROWTH</div>
+        <h2 id="cta-heading" style="font-size:clamp(2.25rem,5vw,4rem);margin-bottom:1.5rem;">
+          Turn Your Site Into a<br><span class="text-gradient">Revenue-Generating Asset.</span>
+        </h2>
+        <p style="max-width:560px;margin:0 auto var(--space-md);">
+          Stop losing market share to competitors with weaker products but better technical foundations. One diagnostic
+          call reveals exactly what's broken and what to fix first.
+        </p>
+        <a href="/contact.html" class="btn btn-primary"
+          style="font-size:0.9375rem;padding:1rem 3rem;">Initialize_Consultation</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="/" class="nav-brand" style="margin-bottom:1.25rem;display:inline-flex;"
+            aria-label="Ranklytics home">Ranklytics<span class="dot" aria-hidden="true">_</span></a>
+          <p
+            style="font-size:0.8125rem;margin-bottom:1.25rem;font-family:var(--font-mono);color:var(--text-tertiary);line-height:1.7;">
+            Data-first SEO for businesses that want measurable growth —<br>not vanity rankings.
+          </p>
+          <p style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-tertiary);">LOC :: Chennai, IN</p>
+          <a href="mailto:hello@ranklytics.in"
+            style="color:var(--accent-green);font-family:var(--font-mono);font-size:0.8125rem;text-decoration:none;display:block;margin-top:0.5rem;">hello@ranklytics.in</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>SERVICES</h4>
+          <ul>
+            <li><a href="/services.html#starter">Starter SEO</a></li>
+            <li><a href="/services.html#growth">Growth SEO</a></li>
+            <li><a href="/services.html#premium">Premium SEO</a></li>
+            <li><a href="/website-redesign-seo.html">Redesign + SEO</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/case-studies.html">Case Studies</a></li>
+            <li><a href="/seo-agency-chennai.html">SEO in Chennai</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>RESOURCES</h4>
+          <ul>
+            <li><a href="/website-redesign-seo.html">Redesign Guide</a></li>
+            <li><a href="/seo-agency-chennai.html">Chennai SEO</a></li>
+            <li><a href="/case-studies.html">Results</a></li>
+            <li><a href="/contact.html">Free Audit</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        style="border-top:1px solid var(--border-subtle);padding-top:2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">
+        <p style="font-family:var(--font-mono);font-size:0.6875rem;color:var(--text-tertiary);">
+          &copy; 2026 RANKLYTICS // ALL RIGHTS RESERVED.
+        </p>
+        <div style="display:flex;gap:1.5rem;">
+          <a href="#"
+            style="color:var(--text-tertiary);font-family:var(--font-mono);font-size:0.6875rem;text-decoration:none;transition:color 0.25s;"
+            onmouseover="this.style.color='var(--accent-green)'"
+            onmouseout="this.style.color='var(--text-tertiary)'">PRIVACY</a>
+          <a href="#"
+            style="color:var(--text-tertiary);font-family:var(--font-mono);font-size:0.6875rem;text-decoration:none;transition:color 0.25s;"
+            onmouseover="this.style.color='var(--accent-green)'"
+            onmouseout="this.style.color='var(--text-tertiary)'">TERMS</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
